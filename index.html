@@ -4,23 +4,58 @@
   <head>
     <!-- this displays in the browser tab -->
     <title>My Favorite Things</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <style>
+      body {
+        background-color: lightgreen;
+      }
+
+      h1 {
+        display: inline;
+      }
+
+      ul {
+        list-style-type: square;
+        color: blue;
+      }
+
+      ul {
+        color: orange;
+      }
+
+      span {
+        display: block;
+        font-family: cursive;
+        font-size: 36px;
+      }
+    </style>
   </head>
   <!-- all visible content of the page goes inside the body -->
-  <body>
-    <h1>My Favorite Things</h1>
-    <hr>
+  <body style="background-color: #c28fa3;">
+    <header>
+      <h1>My Favorite Things</h1>
+      <h1>Are Pretty Cool</h1>
+      <hr>
+    </header>
     <br>
-    <h2>Favorite Sports</h2>
-    <p>My favorite sport is <em>basketball</em> (but i'm not very good at it).</p>
-    <h2>Favorite Foods</h2>
-    <ol type="I" start="10">
-      <li><strong>Enchiladas</strong></li>
-      <li>Broccoli</li>
-      <li>Salmon</li>
-      <!-- <li>Turkey</li> -->
-    </ol>
-    <img src="https://www.onceuponachef.com/images/2018/02/pan-seared-salmon-.jpg" alt="pan seared salmon" width="200" height="200">
-    <a href="https://cafedelites.com/sheet-pan-garlic-butter-baked-salmon/" target="_blank">How to cook salmon</a>
+    <section>
+      <h2 style="color: rgb(79, 91, 115);">Favorite Sports</h2>
+      <p>My favorite sport is <em>basketball</em> (but i'm not very good at it).</p>
+    </section>
+    <section>
+      <h2>Favorite Foods</h2>
+      <ul>
+        <li><strong>Enchiladas</strong></li>
+        <li>Broccoli</li>
+        <li>Salmon</li>
+        <!-- <li>Turkey</li> -->
+      </ul>
+      <img src="https://www.onceuponachef.com/images/2018/02/pan-seared-salmon-.jpg" alt="pan seared salmon" width="200" height="200">
+      <a href="https://cafedelites.com/sheet-pan-garlic-butter-baked-salmon/" target="_blank">How to cook salmon</a>
+    </section>
     <!-- this is a comment -->
+    <footer>
+      <p>Created by <span>Karl Hohn</span></p>
+    </footer>
   </body>
 </html>
